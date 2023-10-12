@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    background-image: url("fondo3.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    background-color: gray;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 40%);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.mi_P {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+h3 {
+    font-size: 18px;
+    display: flex;
+
+}
+
+.traer_personajes {
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    width: 20%;
+    background-color: gray ;
+    color: #fff;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
